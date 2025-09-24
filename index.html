@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Foodie Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+    <div class="navbar">
+      <h1>Abhishek Foodie</h1>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div>
+      <h2>Welcome to Abhishek Foodie Restaurant</h2>
+      <p>Delicious Food | Great Ambience | Family Friendly</p>
+      <button onclick="document.getElementById('reservation').scrollIntoView({behavior:'smooth'})">Book a Table</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="about">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Restaurant Interior">
+      <div class="about-text">
+        <p>
+          Abhishek Foodie Restaurant has been serving authentic flavors since 1990. 
+          Our chefs specialize in Mughlai and Indian cuisines, bringing traditional recipes to your table 
+          with a modern twist. Experience a warm atmosphere and friendly service every time you dine with us.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="download.jpg" alt="Biryani">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant basmati rice cooked with tender chicken and spices.</p>
+      </div>
+      <div class="menu-item">
+        <img src="hotel.jpg" alt="Paneer">
+        <h3>Paneer Butter Masala</h3>
+        <p>Creamy tomato gravy with soft paneer cubes.</p>
+      </div>
+      <div class="menu-item">
+        <img src="download (1).jpg" alt="Kebab">
+        <h3>Seekh Kebabs</h3>
+        <p>Juicy skewers grilled to perfection with spices.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" alt="Dessert">
+        <h3>Gulab Jamun</h3>
+        <p>Soft and sweet dumplings soaked in sugar syrup.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation -->
+  <section id="reservation" class="reservation">
+    <h2>Book a Table</h2>
+    <form id="reservation-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="date" required>
+      <input type="time" required>
+      <textarea rows="4" placeholder="Special Request"></textarea>
+      <button type="submit">Reserve Now</button>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div>
+        <h3>Address</h3>
+        <p>123 jagnleshwar mandir, mumbai, India</p>
+        <h3>Phone</h3>
+        <p>+91 6388529016</p>
+        <h3>Email</h3>
+        <p>Abhishekcsguy@gmail.com</p>
+      </div>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.863364141539!2d80.9461663148777!3d26.84669398315852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd9e84d7c6f7%3A0x6f1e5a3a5a1a5a55!2sAsalfa%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1618076600000"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Abhishek Foodie Restaurant. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js">
+   
+   </script>
+</body>
+</html>
